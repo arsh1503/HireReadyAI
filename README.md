@@ -57,3 +57,19 @@ form.append("duration", "45");
 form.append("question_index", "0");
 const res = await fetch(`${API_BASE}/analyze/text`, { method: "POST", body: form });
 ```
+
+# 👨‍💻 Author
+
+**Arsh Gupta**
+
+AMD Slingshot Hackathon 2026
+
+---
+
+# 🏆 Hackathon Submission
+
+This project was built for the **AMD Slingshot Hackathon 2026**.
+
+---
+
+# ⭐ If you like this project, please star the repo!
