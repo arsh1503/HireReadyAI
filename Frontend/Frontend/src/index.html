@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- CRITICAL: viewport meta prevents mobile zoom shrinking -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <meta name="theme-color" content="#050810" />
+    <title>HireReady.AI — Interview Simulation Platform</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <!-- Inline emergency reset — loads before any CSS file -->
+    <style>
+      html, body, #root {
+        margin: 0 !important;
+        padding: 0 !important;
+        width: 100% !important;
+        min-height: 100vh !important;
+        background: #050810 !important;
+        display: block !important;   /* kills Vite's flex centering */
+        overflow-x: hidden !important;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
