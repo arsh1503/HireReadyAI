@@ -1,5 +1,6 @@
 # Python
 venv/
+Backend/venv/
 __pycache__/
 *.pyc
 
@@ -21,3 +22,7 @@ Thumbs.db
 *.pyd
 *.dll
 *.exe
+
+# IDE
+.vscode/
+.idea/
